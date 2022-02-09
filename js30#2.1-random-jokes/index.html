@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link type="image/x-icon" href="./assets/svg/favicon.ico" rel="shortcut icon">
+    <title>random-jokes</title>
+</head>
+<body>
+    <div class="container">
+        <main>
+            <div>
+                <img class="gear-img" src="./assets/svg/gear.svg" alt="gear">
+                <img class="smallgear-img" src="./assets/svg/gear.svg" alt="gear">
+            </div>
+            <button class="api-button" onclick="changeData()">Click me</button>
+            <h1 class="author" data-text="text"></h1>
+            <h2 class="author-text" data-author="author"></h2>
+        </main>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-data">
+                    <p class="copyright">©</p>
+                    <p class="year">2022</p>
+                    <a class="github-username" href="https://github.com/aivan96">github</a>
+                </div>
+                <a class="rss-logo" href="https://rs.school/js-stage0/"></a>
+            </div>
+        </footer>
+        <script src="./index.js"></script>
+    </div>
+</body>
+</html>
